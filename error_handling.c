@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   error_handling.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: amoldagu <amoldagu@student.42.fr>          +#+  +:+       +#+        */
+/*   By: aiganymmoldagulova <aiganymmoldagulova@    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/05 17:07:42 by aiganymmold       #+#    #+#             */
-/*   Updated: 2025/07/15 19:39:41 by amoldagu         ###   ########.fr       */
+/*   Updated: 2025/07/16 17:22:52 by aiganymmold      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,7 +49,7 @@ void	error_free(t_stack_node **a, char **argv, bool flag_argc_2)
 	free_stack(a);
 	if (flag_argc_2)
 		free_my_argv(argv);
-	write(2, "Error1\n", 6);
+	write(2, "Error\n", 6);
 	exit(1);
 }
 

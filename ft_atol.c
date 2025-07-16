@@ -6,7 +6,7 @@
 /*   By: aiganymmoldagulova <aiganymmoldagulova@    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/08 11:28:57 by aiganymmold       #+#    #+#             */
-/*   Updated: 2025/07/14 13:07:21 by aiganymmold      ###   ########.fr       */
+/*   Updated: 2025/07/16 18:00:24 by aiganymmold      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,9 @@
 
 static int	is_overflow(int sign, long num)
 {
-	long result = sign * num;
+	long	result;
+
+	result = sign * num;
 	return (result > INT_MAX || result < INT_MIN);
 }
 

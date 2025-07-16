@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: amoldagu <amoldagu@student.42.fr>          +#+  +:+       +#+         #
+#    By: aiganymmoldagulova <aiganymmoldagulova@    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/07/14 13:27:58 by aiganymmold       #+#    #+#              #
-#    Updated: 2025/07/15 19:20:32 by amoldagu         ###   ########.fr        #
+#    Updated: 2025/07/16 18:24:31 by aiganymmold      ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,7 +18,7 @@ SRCS = error_handling.c ft_atol.c ft_split.c \
 	   greedy_max_pull.c index_mapping.c \
 	   main.c push_command.c quicksort.c \
 	   reverse_rotate_command.c rotate_command.c \
-	   small_stack_algorithm.c stack.c swap_command.c
+	   small_stack_algorithm.c stack.c stack_utils.c swap_command.c
 
 OBJS = $(SRCS:.c=.o)
 

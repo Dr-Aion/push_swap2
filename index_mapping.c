@@ -6,7 +6,7 @@
 /*   By: aiganymmoldagulova <aiganymmoldagulova@    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/13 13:14:45 by aiganymmold       #+#    #+#             */
-/*   Updated: 2025/07/13 15:26:09 by aiganymmold      ###   ########.fr       */
+/*   Updated: 2025/07/16 18:06:12 by aiganymmold      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,8 +39,8 @@ void	mapping_indexes(t_stack_node **stack, int *sorted_arr)
 void	get_indexed_stack(t_stack_node **a)
 {
 	int	*sorted_array;
-	
-	if(a == NULL || (*a) == NULL)
+
+	if (a == NULL || (*a) == NULL)
 		return ;
 	sorted_array = quicksort(*a);
 	if (!sorted_array)
