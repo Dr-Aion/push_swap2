@@ -6,7 +6,7 @@
 /*   By: aiganymmoldagulova <aiganymmoldagulova@    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/05 17:11:26 by aiganymmold       #+#    #+#             */
-/*   Updated: 2025/07/16 18:35:44 by aiganymmold      ###   ########.fr       */
+/*   Updated: 2025/07/17 17:27:52 by aiganymmold      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ void			error_free(t_stack_node **a, char **argv, bool flag_argc_2);
 void			free_stack(t_stack_node **stack);
 void			free_my_argv(char **my_argv);
 
-long			ft_atol(t_stack_node **a, char **argv, bool flag_argc_2);
+long			ft_atol(t_stack_node **a, char **o_av, char **argv, bool flag);
 
 int				count_words(char *str, char separator);
 char			*get_next_word(char *str, char separator, int *cursor);

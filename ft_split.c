@@ -6,7 +6,7 @@
 /*   By: aiganymmoldagulova <aiganymmoldagulova@    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/05 13:40:05 by aiganymmold       #+#    #+#             */
-/*   Updated: 2025/07/05 16:56:52 by aiganymmold      ###   ########.fr       */
+/*   Updated: 2025/07/17 17:25:55 by aiganymmold      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
