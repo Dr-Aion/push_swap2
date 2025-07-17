@@ -6,7 +6,7 @@
 /*   By: aiganymmoldagulova <aiganymmoldagulova@    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/05 16:40:50 by aiganymmold       #+#    #+#             */
-/*   Updated: 2025/07/14 13:06:39 by aiganymmold      ###   ########.fr       */
+/*   Updated: 2025/07/17 17:15:20 by aiganymmold      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -70,10 +70,10 @@ void	init_stack(t_stack_node **a, char **argv, bool flag_2_argc)
 	while (*argv)
 	{
 		if (!is_valid_number(argv[i]))
-			error_free(a, argv, flag_2_argc);
+			error_free(a, orgininal_argv, flag_2_argc);
 		num = ft_atol(a, argv, flag_2_argc);
 		if (error_check_for_repetition(*a, (int)num))
-			error_free(a, argv, flag_2_argc);
+			error_free(a, orgininal_argv, flag_2_argc);
 		append_node(a, (int)num);
 		argv++;
 	}
